@@ -1,0 +1,19 @@
+#block-system-main-menu{
+  ul.menu li{
+	  padding-right: 12px;
+	  margin-left: 12px;
+	  border-right: solid 3px #94142B;
+  }
+  ul.menu li.last{
+	  border-right: none;
+	  padding-right: 0px;
+  }
+  ul.menu li.first{
+	  margin-left: 0px;
+  }
+  ul.menu li a{
+	  text-decoration: none;
+	  color: #94142B;
+	  font-weight: 600;
+  }
+}

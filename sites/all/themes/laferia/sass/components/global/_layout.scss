@@ -1,0 +1,32 @@
+.l-page{
+	width: 100%;
+	.l-header {
+		background: #EEEEEE;
+	}
+	.l-header .inner-header{
+		width: 735px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	.l-branding{
+		width: 245px;
+	}
+	.l-region--navigation{
+	  width: 485px;
+	  float: right;
+	  margin-top: -60px; 
+		.menu li{
+			float: left;
+			list-style: none;
+		}
+	}
+	.l-content{
+		width: 700px;
+		margin: 0 auto;
+	}
+  .l-footer{
+	  height: 65px;
+	  width: 100%;
+	  background: #EEEEEE;
+  }
+}

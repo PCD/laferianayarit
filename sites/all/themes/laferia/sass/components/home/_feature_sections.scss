@@ -1,0 +1,22 @@
+.cols.home_cols{
+  > div{
+	  display: inline-block;
+	  padding-top: 15px;
+  }
+	.col1.col_left{
+	  position: relative;
+		width: 226px;
+		float: left;
+	}
+	.col2.col_center{
+	  position: relative;
+		margin-left: 50px;
+		width: 170px;
+	}
+	.col3.col_right{
+	  position: relative;
+	  margin-left: 40px;
+		float: right;
+		width: 190px;
+	}
+}
