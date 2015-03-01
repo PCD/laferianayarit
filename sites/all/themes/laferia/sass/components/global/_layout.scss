@@ -1,12 +1,14 @@
 .l-page{
 	width: 100%;
-	background: url(../images/main_bg.png) no-repeat bottom center;
-	background-size: 100%;
+	background: #fff;
+	.l-main{
+		background: #fff;
+	}
 	.l-header {
 		background: #EEEEEE;
 	}
 	.l-header .inner-header{
-		width: 735px;
+		width: 960px;
 		margin: 0 auto;
 		padding-top: 10px;
 	}
@@ -23,12 +25,54 @@
 		}
 	}
 	.l-content{
-		width: 700px;
+		width: 960px;
 		margin: 0 auto;
+		padding: 0 20px;
 	}
   .l-footer{
 	  height: 65px;
 	  width: 100%;
 	  margin-top: 70px;
   }
+}
+@media only screen and (max-width: $desktop){
+	.l-page{
+	  #admin-menu:{
+		  display: none;
+	  }
+		.l-header .inner-header{
+			width: 100%;
+			padding: 10px;
+		}
+		.l-content{
+			width: 660px;
+		}
+	}
+}
+@media only screen and (max-width: $tablet){
+	.l-page{
+	  #admin-menu:{
+		  display: none;
+	  }
+		.l-content{
+			width: 100%;
+			padding: 0 10px;
+		}
+		.l-branding{
+			width: 60%;
+			margin: 0;
+		}
+		.l-branding .site-logo img{
+			width: 100%;
+			height: auto;
+		}
+		.l-region--navigation{
+	  width: 100%;
+	  float: none;
+	  margin-top: 0px; 
+		}
+		.l-region--navigation .menu li{
+			float: left;
+	  }
+	}
 }

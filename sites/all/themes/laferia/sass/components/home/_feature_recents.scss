@@ -22,3 +22,21 @@
 		}
 	}
 }
+@media only screen and (max-width: $tablet){
+	.feature_recents{
+	  .intro_body{
+		  font-size: 15px;
+	  }
+	  .recent_items{
+		  padding: 10px 0;
+	  }
+		.recent_items .items{
+			.title h3{
+				font-size: 17px;
+			}
+			.intro_body{
+				font-size: 14px;
+			}
+		}
+	}
+}

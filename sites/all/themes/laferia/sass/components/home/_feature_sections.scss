@@ -27,3 +27,38 @@
 		font-size: 24px;
 	}
 }
+@media only screen and (max-width: $tablet){
+	.cols.home_cols{
+		.col1.col_left{
+		  position: relative;
+			width: 48%;
+		}
+		.col2.col_center{
+		  position: relative;
+			margin-left: 4%;
+			width: 48%;
+		}
+		.col3.col_right{
+		  
+			float: none;
+			width: 100%;
+		}
+
+	}
+}
+@media only screen and (max-width: 390px){
+	.cols.home_cols{
+		.col1.col_left{
+			width: 100%;
+		}
+		.col2.col_center{
+			margin-left: 0;
+			width: 100%;
+		}
+		.col1,
+		.col2,
+		.col3{
+		  margin: 10px 0; 
+		}
+	}
+}

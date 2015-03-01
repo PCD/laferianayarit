@@ -1,4 +1,7 @@
 #block-system-main-menu{
+  #menu_opener{
+	  display: none;
+  }
   ul.menu li{
 	  padding-right: 12px;
 	  margin-left: 12px;
@@ -16,4 +19,40 @@
 	  color: #94142B;
 	  font-weight: 600;
   }
+}
+@media only screen and (max-width: $desktop){
+	#block-system-main-menu{
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width: $tablet){
+	#block-system-main-menu{
+		ul.menu {
+			display: none;
+		}
+	}
+	#menu_opener{
+		display: block;
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		background: url(../images/menu_opener.png) no-repeat center left;
+		background-size: 50px 50px;
+		cursor: pointer;
+		top: 10px;
+    right: 10px;
+	}
+	.mobile_menu.mm-menu{
+		margin-top: 0;
+		background: #B60F37;
+		li{
+			padding: 20px; 
+			border-bottom: solid 1px #fff;
+		}
+		li a{
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+		}
+	}
 }

@@ -12,11 +12,14 @@ stylesheets[all][] = css/laferia.normalize.css
 stylesheets[all][] = css/laferia.hacks.css
 stylesheets[all][] = css/laferia.styles.css
 stylesheets[all][] = css/laferia.no-query.css
+stylesheets[all][] = css/jquery.mmenu.all.css
 
 ; ========================================
 ; Scripts
 ; ========================================
 scripts[] = js/laferia.behaviors.js
+scripts[] = js/mobile.menu.js
+scripts[] = js/jquery.mmenu.min.js
 
 ; ========================================
 ; Regions
