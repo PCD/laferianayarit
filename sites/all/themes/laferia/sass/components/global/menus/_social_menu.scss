@@ -21,3 +21,8 @@
 		}
 	}	
 }
+@media only screen and (max-width: $tablet){
+	#block-menu-menu-social-menu{
+		display: none;
+	}
+}
