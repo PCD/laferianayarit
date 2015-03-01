@@ -107,6 +107,23 @@ img, media {
 .feature_block .body {
   font-size: 12px; }
 
+/* line 2, ../sass/components/home/_feature_carrousel.scss */
+.feature_carrousel .carrousel_item {
+  padding: 15px 0;
+  border-bottom: dotted 3px #ccc; }
+  /* line 5, ../sass/components/home/_feature_carrousel.scss */
+  .feature_carrousel .carrousel_item .date {
+    color: #CD1D27;
+    margin-bottom: 5px; }
+  /* line 9, ../sass/components/home/_feature_carrousel.scss */
+  .feature_carrousel .carrousel_item .title h3 {
+    margin: 0 0 5px  0; }
+  /* line 12, ../sass/components/home/_feature_carrousel.scss */
+  .feature_carrousel .carrousel_item .title h3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px; }
+
 /* line 2, ../sass/components/home/_feature_recents.scss */
 .feature_recents .intro_body {
   font-size: 12px; }

@@ -1,0 +1,18 @@
+.feature_carrousel{
+	.carrousel_item{
+	  padding: 15px 0;
+	  border-bottom: dotted 3px #ccc;
+	  .date{
+		  color: #CD1D27;
+		  margin-bottom: 5px;
+	  }
+		.title h3{
+			margin: 0 0 5px  0;
+		}
+		.title h3 a{
+			text-decoration: none;
+			color: #000;
+			font-size: 14px;
+		}
+	}
+}
