@@ -1,14 +1,13 @@
 body{
 	background: url(../images/main_bg.png) no-repeat bottom center;
+	background-size: 105%;
 }
 .l-page{
 	width: 100%;
-	background: #fff;
 	.breadcrumb{
 		display: none;
 	}
 	.l-main{
-		background: #fff;
 	}
 	.l-header {
 		background: #EEEEEE;
@@ -41,7 +40,15 @@ body{
 	  margin-top: 70px;
   }
 }
+@media only screen and (max-width: 1150px){
+	body{
+	  background-size: 115%;
+  }
+}
 @media only screen and (max-width: $desktop){
+  body{
+	  background-size: 105%;
+  }
 	.l-page{
 	  #admin-menu:{
 		  display: none;
@@ -55,7 +62,15 @@ body{
 		}
 	}
 }
+@media only screen and (max-width: 775px){
+	body{
+	  background-size: 115%;
+  }
+}
 @media only screen and (max-width: $tablet){
+  body{
+    background: none;
+  }
 	.l-page{
 	  #admin-menu:{
 		  display: none;
@@ -79,6 +94,9 @@ body{
 		}
 		.l-region--navigation .menu li{
 			float: left;
+	  }
+	  .l-footer{
+		  background: #EEEEEE;
 	  }
 	}
 }

@@ -128,3 +128,4 @@
     <?php print render($page['footer']); ?>
   </footer>
 </div>
+<div id="main-bg"></div>

@@ -76,84 +76,100 @@ h4.red {
 
 /* line 1, ../sass/components/global/_layout.scss */
 body {
-  background: url(../images/main_bg.png) no-repeat bottom center; }
+  background: url(../images/main_bg.png) no-repeat bottom center;
+  background-size: 105%; }
 
-/* line 4, ../sass/components/global/_layout.scss */
+/* line 5, ../sass/components/global/_layout.scss */
 .l-page {
-  width: 100%;
-  background: #fff; }
+  width: 100%; }
   /* line 7, ../sass/components/global/_layout.scss */
   .l-page .breadcrumb {
     display: none; }
-  /* line 10, ../sass/components/global/_layout.scss */
-  .l-page .l-main {
-    background: #fff; }
-  /* line 13, ../sass/components/global/_layout.scss */
+  /* line 12, ../sass/components/global/_layout.scss */
   .l-page .l-header {
     background: #EEEEEE; }
-  /* line 16, ../sass/components/global/_layout.scss */
+  /* line 15, ../sass/components/global/_layout.scss */
   .l-page .l-header .inner-header {
     width: 960px;
     margin: 0 auto;
     padding-top: 10px; }
-  /* line 21, ../sass/components/global/_layout.scss */
+  /* line 20, ../sass/components/global/_layout.scss */
   .l-page .l-branding {
     width: 245px; }
-  /* line 24, ../sass/components/global/_layout.scss */
+  /* line 23, ../sass/components/global/_layout.scss */
   .l-page .l-region--navigation {
     width: 485px;
     float: right;
     margin-top: -60px; }
-    /* line 28, ../sass/components/global/_layout.scss */
+    /* line 27, ../sass/components/global/_layout.scss */
     .l-page .l-region--navigation .menu li {
       float: left;
       list-style: none; }
-  /* line 33, ../sass/components/global/_layout.scss */
+  /* line 32, ../sass/components/global/_layout.scss */
   .l-page .l-content {
     width: 960px;
     margin: 0 auto;
     padding: 0 20px; }
-  /* line 38, ../sass/components/global/_layout.scss */
+  /* line 37, ../sass/components/global/_layout.scss */
   .l-page .l-footer {
     height: 65px;
     width: 100%;
     margin-top: 70px; }
 
+@media only screen and (max-width: 1150px) {
+  /* line 44, ../sass/components/global/_layout.scss */
+  body {
+    background-size: 115%; } }
 @media only screen and (max-width: 960px) {
-  /* line 45, ../sass/components/global/_layout.scss */
+  /* line 49, ../sass/components/global/_layout.scss */
+  body {
+    background-size: 105%; }
+
+  /* line 52, ../sass/components/global/_layout.scss */
   .l-page {
     #admin-menu-display: none; }
-    /* line 49, ../sass/components/global/_layout.scss */
+    /* line 56, ../sass/components/global/_layout.scss */
     .l-page .l-header .inner-header {
       width: 100%;
       padding: 10px; }
-    /* line 53, ../sass/components/global/_layout.scss */
+    /* line 60, ../sass/components/global/_layout.scss */
     .l-page .l-content {
       width: 660px; } }
+@media only screen and (max-width: 775px) {
+  /* line 66, ../sass/components/global/_layout.scss */
+  body {
+    background-size: 115%; } }
 @media only screen and (max-width: 660px) {
-  /* line 59, ../sass/components/global/_layout.scss */
+  /* line 71, ../sass/components/global/_layout.scss */
+  body {
+    background: none; }
+
+  /* line 74, ../sass/components/global/_layout.scss */
   .l-page {
     #admin-menu-display: none; }
-    /* line 63, ../sass/components/global/_layout.scss */
+    /* line 78, ../sass/components/global/_layout.scss */
     .l-page .l-content {
       width: 100%;
       padding: 0 10px; }
-    /* line 67, ../sass/components/global/_layout.scss */
+    /* line 82, ../sass/components/global/_layout.scss */
     .l-page .l-branding {
       width: 60%;
       margin: 0; }
-    /* line 71, ../sass/components/global/_layout.scss */
+    /* line 86, ../sass/components/global/_layout.scss */
     .l-page .l-branding .site-logo img {
       width: 100%;
       height: auto; }
-    /* line 75, ../sass/components/global/_layout.scss */
+    /* line 90, ../sass/components/global/_layout.scss */
     .l-page .l-region--navigation {
       width: 100%;
       float: none;
       margin-top: 0px; }
-    /* line 80, ../sass/components/global/_layout.scss */
+    /* line 95, ../sass/components/global/_layout.scss */
     .l-page .l-region--navigation .menu li {
-      float: left; } }
+      float: left; }
+    /* line 98, ../sass/components/global/_layout.scss */
+    .l-page .l-footer {
+      background: #EEEEEE; } }
 /* line 2, ../sass/components/global/menus/_main_menu.scss */
 #block-system-main-menu #menu_opener {
   display: none; }
