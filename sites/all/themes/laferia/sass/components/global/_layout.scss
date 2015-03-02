@@ -7,8 +7,6 @@ body{
 	.breadcrumb{
 		display: none;
 	}
-	.l-main{
-	}
 	.l-header {
 		background: #EEEEEE;
 	}
@@ -72,8 +70,12 @@ body{
     background: none;
   }
 	.l-page{
+	  background: #fff;
 	  #admin-menu:{
 		  display: none;
+	  }
+	  .l-main{
+	    background: #fff;
 	  }
 		.l-content{
 			width: 100%;
