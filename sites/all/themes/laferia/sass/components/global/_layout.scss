@@ -4,6 +4,9 @@ body{
 .l-page{
 	width: 100%;
 	background: #fff;
+	.breadcrumb{
+		display: none;
+	}
 	.l-main{
 		background: #fff;
 	}
