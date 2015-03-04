@@ -46,13 +46,14 @@
 		margin-top: 0;
 		background: #B60F37;
 		li{
-			padding: 20px; 
 			border-bottom: solid 1px #fff;
 		}
 		li a{
 			color: #fff;
 			text-decoration: none;
 			font-size: 18px;
+			padding: 20px; 
+			display: block;
 		}
 	}
 }
