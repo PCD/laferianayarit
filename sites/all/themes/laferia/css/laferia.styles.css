@@ -438,26 +438,29 @@ body {
   .feature_recents .recent_items .items .intro_body {
     font-size: 14px; } }
 /* line 2, ../sass/components/home/_feature_sections.scss */
+.cols.home_cols .fb_iframe_widget, .cols.home_cols .fb_iframe_widget span, .cols.home_cols .fb_iframe_widget span iframe[style] {
+  width: 100% !important; }
+/* line 5, ../sass/components/home/_feature_sections.scss */
 .cols.home_cols > div {
   display: inline-block;
   padding-top: 15px; }
-/* line 6, ../sass/components/home/_feature_sections.scss */
+/* line 9, ../sass/components/home/_feature_sections.scss */
 .cols.home_cols .col1.col_left {
   position: relative;
   width: 35%;
   float: left; }
-/* line 11, ../sass/components/home/_feature_sections.scss */
+/* line 14, ../sass/components/home/_feature_sections.scss */
 .cols.home_cols .col2.col_center {
   position: relative;
   margin-left: 2%;
   width: 30%; }
-/* line 16, ../sass/components/home/_feature_sections.scss */
+/* line 19, ../sass/components/home/_feature_sections.scss */
 .cols.home_cols .col3.col_right {
   position: relative;
   margin-left: 2%;
   float: right;
   width: 31%; }
-/* line 22, ../sass/components/home/_feature_sections.scss */
+/* line 25, ../sass/components/home/_feature_sections.scss */
 .cols.home_cols .col1 h2,
 .cols.home_cols .col2 h2,
 .cols.home_cols .col3 h2 {
@@ -466,28 +469,28 @@ body {
   font-size: 24px; }
 
 @media only screen and (max-width: 660px) {
-  /* line 32, ../sass/components/home/_feature_sections.scss */
+  /* line 35, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col1.col_left {
     position: relative;
     width: 48%; }
-  /* line 36, ../sass/components/home/_feature_sections.scss */
+  /* line 39, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col2.col_center {
     position: relative;
     margin-left: 4%;
     width: 48%; }
-  /* line 41, ../sass/components/home/_feature_sections.scss */
+  /* line 44, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col3.col_right {
     float: none;
     width: 100%; } }
 @media only screen and (max-width: 390px) {
-  /* line 51, ../sass/components/home/_feature_sections.scss */
+  /* line 54, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col1.col_left {
     width: 100%; }
-  /* line 54, ../sass/components/home/_feature_sections.scss */
+  /* line 57, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col2.col_center {
     margin-left: 0;
     width: 100%; }
-  /* line 58, ../sass/components/home/_feature_sections.scss */
+  /* line 61, ../sass/components/home/_feature_sections.scss */
   .cols.home_cols .col1,
   .cols.home_cols .col2,
   .cols.home_cols .col3 {
