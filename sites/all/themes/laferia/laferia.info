@@ -20,6 +20,7 @@ stylesheets[all][] = css/jquery.mmenu.all.css
 scripts[] = js/laferia.behaviors.js
 scripts[] = js/mobile.menu.js
 scripts[] = js/jquery.mmenu.min.js
+scripts[] = js/gallery.events.js
 
 ; ========================================
 ; Regions

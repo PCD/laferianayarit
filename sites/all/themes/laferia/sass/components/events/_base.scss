@@ -1,5 +1,6 @@
 .node-type-evento{
   .tags {
+    margin-bottom: 10px;
 	  .tag{
 		  display: inline-block;
 		  margin-right: 10px;
@@ -17,9 +18,26 @@
 		  color: #CD1D27;
 	  }
   }
-	.gallery .image_gallery{
-		display: inline-block;
-		margin-right: 10px;
-		width: 30%;
+	.gallery{
+	  .image_gallery a{
+		  display: block;
+	  }
+	  .image_gallery img{
+		  width: 100%;
+		  height: auto;
+	  }
+	  .image_gallery{
+		  display: inline-block;
+		  margin-right: 10px;
+		  width: 20%;
+	  }
+	  .image_gallery.first{
+		  width: 100%;
+		  margin-right: 0; 
+		  margin-bottom: 10px;
+	  }
+	  .image_gallery.last{
+		  margin-right: 0;
+	  }
 	}
 }

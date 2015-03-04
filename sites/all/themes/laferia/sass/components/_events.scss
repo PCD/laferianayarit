@@ -1,0 +1,36 @@
+#block-views-proximos-eventos-block,
+.page-eventos{
+  .block__title{
+	  color: #2C7A34;
+  }
+	.view-proximos-eventos .view-content {
+	  display: table;
+	  .views-row{
+	 	  width: 30%;
+		  float: left;
+		  margin-right: 5%;
+		  margin-bottom: 20px;
+		}
+		.views-row-3,
+		.views-row-9,
+		.views-row-12,
+		.views-row-15,
+		.views-row-18,
+		.views-row-21{
+			margin-right: 0;
+		}
+	}
+	.pager-load-more li{
+		width: 150px;
+		margin: 0 auto;
+		list-style: none;
+	}
+	.pager-load-more li a{
+		text-decoration: none;
+		color: #fff;
+		padding: 10px;
+	  width: auto;
+	  display: block;
+	  background: #157035;
+	}
+}

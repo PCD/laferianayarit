@@ -21,27 +21,106 @@ h3.red,
 h4.red {
   color: #CD1D27; }
 
-/* line 3, ../sass/components/events/_base.scss */
-.node-type-evento .tags .tag {
-  display: inline-block;
-  margin-right: 10px; }
-/* line 7, ../sass/components/events/_base.scss */
-.node-type-evento .tags .tag a {
+/* line 18, ../sass/base/_typography.scss */
+h1.green a,
+h2.green a,
+h3.green a,
+h4.green a {
+  color: #2C7A34;
   text-decoration: none; }
-/* line 10, ../sass/components/events/_base.scss */
-.node-type-evento .tags .tag a:hover {
-  text-decoration: underline; }
-/* line 13, ../sass/components/events/_base.scss */
-.node-type-evento .tags .even.tag a {
+
+/* line 26, ../sass/base/_typography.scss */
+h1.red a,
+h2.red a,
+h3.red a,
+h4.red a {
+  color: #CD1D27;
+  text-decoration: none; }
+
+/* line 3, ../sass/components/_events.scss */
+#block-views-proximos-eventos-block .block__title,
+.page-eventos .block__title {
   color: #2C7A34; }
-/* line 16, ../sass/components/events/_base.scss */
-.node-type-evento .tags .odd.tag a {
-  color: #CD1D27; }
-/* line 20, ../sass/components/events/_base.scss */
+/* line 6, ../sass/components/_events.scss */
+#block-views-proximos-eventos-block .view-proximos-eventos .view-content,
+.page-eventos .view-proximos-eventos .view-content {
+  display: table; }
+  /* line 8, ../sass/components/_events.scss */
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row,
+  .page-eventos .view-proximos-eventos .view-content .views-row {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 20px; }
+  /* line 14, ../sass/components/_events.scss */
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-3,
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-9,
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-12,
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-15,
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-18,
+  #block-views-proximos-eventos-block .view-proximos-eventos .view-content .views-row-21,
+  .page-eventos .view-proximos-eventos .view-content .views-row-3,
+  .page-eventos .view-proximos-eventos .view-content .views-row-9,
+  .page-eventos .view-proximos-eventos .view-content .views-row-12,
+  .page-eventos .view-proximos-eventos .view-content .views-row-15,
+  .page-eventos .view-proximos-eventos .view-content .views-row-18,
+  .page-eventos .view-proximos-eventos .view-content .views-row-21 {
+    margin-right: 0; }
+/* line 23, ../sass/components/_events.scss */
+#block-views-proximos-eventos-block .pager-load-more li,
+.page-eventos .pager-load-more li {
+  width: 150px;
+  margin: 0 auto;
+  list-style: none; }
+/* line 28, ../sass/components/_events.scss */
+#block-views-proximos-eventos-block .pager-load-more li a,
+.page-eventos .pager-load-more li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  width: auto;
+  display: block;
+  background: #157035; }
+
+/* line 2, ../sass/components/events/_base.scss */
+.node-type-evento .tags {
+  margin-bottom: 10px; }
+  /* line 4, ../sass/components/events/_base.scss */
+  .node-type-evento .tags .tag {
+    display: inline-block;
+    margin-right: 10px; }
+  /* line 8, ../sass/components/events/_base.scss */
+  .node-type-evento .tags .tag a {
+    text-decoration: none; }
+  /* line 11, ../sass/components/events/_base.scss */
+  .node-type-evento .tags .tag a:hover {
+    text-decoration: underline; }
+  /* line 14, ../sass/components/events/_base.scss */
+  .node-type-evento .tags .even.tag a {
+    color: #2C7A34; }
+  /* line 17, ../sass/components/events/_base.scss */
+  .node-type-evento .tags .odd.tag a {
+    color: #CD1D27; }
+/* line 22, ../sass/components/events/_base.scss */
+.node-type-evento .gallery .image_gallery a {
+  display: block; }
+/* line 25, ../sass/components/events/_base.scss */
+.node-type-evento .gallery .image_gallery img {
+  width: 100%;
+  height: auto; }
+/* line 29, ../sass/components/events/_base.scss */
 .node-type-evento .gallery .image_gallery {
   display: inline-block;
   margin-right: 10px;
-  width: 30%; }
+  width: 20%; }
+/* line 34, ../sass/components/events/_base.scss */
+.node-type-evento .gallery .image_gallery.first {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10px; }
+/* line 39, ../sass/components/events/_base.scss */
+.node-type-evento .gallery .image_gallery.last {
+  margin-right: 0; }
 
 /* line 1, ../sass/components/global/_body.scss */
 .body {
@@ -383,6 +462,15 @@ body {
     margin: 10px 0; } }
 /* line 2, ../sass/components/home/_hero.scss */
 .hero #block-imageblock-1 img {
+  width: 100%;
+  height: auto; }
+
+/* line 2, ../sass/components/home/_slider.scss */
+#block-views-carrusel-block #views_slideshow_cycle_teaser_section_carrusel-block,
+#block-views-carrusel-block #views_slideshow_cycle_teaser_section_carrusel-block div {
+  width: 100% !important; }
+/* line 6, ../sass/components/home/_slider.scss */
+#block-views-carrusel-block .slide img {
   width: 100%;
   height: auto; }
 
