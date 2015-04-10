@@ -289,7 +289,7 @@ h4.red a {
 /* line 1, ../sass/components/global/_layout.scss */
 body {
   background: url(../images/main_bg.png) no-repeat bottom center;
-  background-size: 105%; }
+  background-size: 120%; }
 
 /* line 5, ../sass/components/global/_layout.scss */
 .l-page {
@@ -320,13 +320,13 @@ body {
   /* line 30, ../sass/components/global/_layout.scss */
   .l-page .l-content {
     width: 960px;
-    margin: 0 auto;
-    padding: 0 20px; }
-  /* line 35, ../sass/components/global/_layout.scss */
+    margin: -4px auto 50px auto;
+    padding: 0 20px 30px 20px;
+    background: #fff; }
+  /* line 36, ../sass/components/global/_layout.scss */
   .l-page .l-footer {
-    height: 65px;
     width: 100%;
-    margin-top: 70px; }
+    margin-top: 50px; }
   /* line 40, ../sass/components/global/_layout.scss */
   .l-page .hard_responsive * {
     width: 100% !important; }

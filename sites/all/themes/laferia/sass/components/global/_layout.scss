@@ -1,6 +1,6 @@
 body{
 	background: url(../images/main_bg.png) no-repeat bottom center;
-	background-size: 105%;
+	background-size: 120%;
 }
 .l-page{
 	width: 100%;
@@ -29,13 +29,13 @@ body{
 	}
 	.l-content{
 		width: 960px;
-		margin: 0 auto;
-		padding: 0 20px;
+		margin: -4px auto 50px auto;
+		padding: 0 20px 30px 20px; 
+		background: #fff;
 	}
   .l-footer{
-	  height: 65px;
 	  width: 100%;
-	  margin-top: 70px;
+	  margin-top: 50px;	  
   }
   .hard_responsive *{
 	  width: 100% !important;
